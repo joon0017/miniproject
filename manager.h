@@ -13,4 +13,5 @@ void addProduct(product *p);
 int readProduct(product p[], int a);
 void updateProduct(product *p);
 void deleteProduct(product *p);
-
+int savefile(product p[], int a);
+char* retreiveProduct(product p[],int a);
